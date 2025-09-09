@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.sidebar-satu{
+    text-align: center;
+    background-color: #fff;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.container-satu{
+    display: flex;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kolom-utama{
+    background-color: #fff;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
