@@ -10,10 +10,15 @@ body{
     padding-bottom: 1000px;
 }
 
-.sidebar-satu{
-    text-align: center;
+.sidebar-satu {
+    width: 3000px;           /* Lebar tetap */
     background-color: #fff;
-    padding-right: 50px;
+    margin-right: 100px;    /* jangan terlalu besar */
+    box-sizing: border-box;
+}
+
+.sidebar-dua{
+    background-color: #fff;
     box-sizing: border-box;
 }
 
@@ -21,8 +26,8 @@ body{
     display: flex;
     width: auto;
     margin-top: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 50px;
     background-color: #fff;
     padding: 20px;
@@ -31,7 +36,8 @@ body{
 
 .kolom-utama{
     background-color: #fff;
-    padding-right: 50px;
+    margin-right: 20px;
+    padding-right: 200px;
     box-sizing: border-box;
 }
 
