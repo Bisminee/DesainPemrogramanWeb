@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dialog Confirm</title>
+        <title>Dialog Promp</title>
     </head>
     <body>
         <script>
-            var yakin = confirm("Apakah akmu yakin akan mengunjungi polinema?");
+            var nama = prompt("Siapa nama kamu?","");
 
-            if (yakin){
-                window.location = "https://www.polinema.ac.id";
-            } else{
-                document.write("Baiklah, tetap di sini aja ya... ");
-            }
+            document.write("<p>Hello " + nama + "</p>");
         </script>
     </body>
 </html>
