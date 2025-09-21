@@ -26,4 +26,14 @@ echo "Rata-rata: {$rataRata} <br>";
 
 var_dump($rataRata);
 
+$namaDepan = "Ibnu";
+$namaBelakang = 'Jakaria';
+
+$namaLengkap = "{$namaDepan} {$namaBelakang}";
+$namaLengkap2 = $namaDepan . ' ' . $namaBelakang;
+
+echo "<br><br>Nama Depan: {$namaDepan} <br>";
+echo 'Nama Belakang: ' . $namaBelakang .'<br>';
+
+echo $namaLengkap;
 ?>
