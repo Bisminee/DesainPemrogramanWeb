@@ -40,5 +40,13 @@ echo "Hasil jika nilai a==b?: $hasilLebihBesarSama<br><br>";
 echo "Hasil logika and a && b = $hasilAnd<br>";
 echo "Hasil logika and a || b = $hasilOr<br>";
 echo "Hasil logika and !a = $hasilNotA<br>";
-echo "Hasil logika and !b = $hasilNotB<br>";
+echo "Hasil logika and !b = $hasilNotB<br><br>";
+
+$a += $b;
+echo "nilai a+=b = $a";
+$a -= $b;
+$a *= $b;
+$a /= $b;
+$a %= $b;
+
 ?>
