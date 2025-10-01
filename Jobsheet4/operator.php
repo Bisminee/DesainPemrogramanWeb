@@ -29,7 +29,7 @@ echo "Hasil bagi a dan b = $hasilBagi<br>";
 echo "Hasil a pangkat b = $pangkat<br><br>";
 
 echo "Nilai a = $a<br>";
-echo "Nilai b = $b<br>";
+echo "Nilai b = $b<br><br>";
 echo "Hasil jika nilai a==b?: $hasilSama<br>";
 echo "Hasil jika nilai a==b?: $hasilTidakSama<br>";
 echo "Hasil jika nilai a==b?: $hasilLebihKecil<br>";
@@ -42,11 +42,42 @@ echo "Hasil logika and a || b = $hasilOr<br>";
 echo "Hasil logika and !a = $hasilNotA<br>";
 echo "Hasil logika and !b = $hasilNotB<br><br>";
 
-$a += $b;
-echo "nilai a+=b = $a";
-$a -= $b;
-$a *= $b;
-$a /= $b;
-$a %= $b;
+echo "Nilai a = $a<br>";
+echo "Nilai b = $b<br><br>";
 
+$a += $b;
+echo "nilai a+=b = $a<br>";
+$a = 10;
+$b = 5;
+
+$a -= $b;
+echo "nilai a-=b = $a<br>";
+$a = 10;
+$b = 5;
+
+$a *= $b;
+echo "nilai a*=b = $a<br>";
+$a = 10;
+$b = 5;
+
+$a /= $b;
+echo "nilai a/=b = $a<br>";
+$a = 10;
+$b = 5;
+
+$a %= $b;
+echo "nilai a%=b = $a<br>";
+$a = 10;
+$b = 5;
+
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "<br>Hasil ketika a identik dengan b: $hasilIdentik<br>";
+echo "<br>Hasil ketika a tidak identik dengan b: $hasilTidakIdentik<br><br>";
+
+$kursi = 45;
+$kursiTerpakai = 28;
+$persentaseKusrsiKosong = ($kursi-$kursiTerpakai) / $kursi * 100;
+echo "Persentase kursi tersisa: " . $persentaseKusrsiKosong . "%";
 ?>
