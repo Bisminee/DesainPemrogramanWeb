@@ -109,6 +109,17 @@ $hargaBayar = $hargaProduk - ($hargaProduk * $diskon);
 
 echo "<br><br>Barang anda memiliki harga: $hargaProduk<br>";
 echo "Anda mendapatkan diskon: " . $diskon * 100 . "%<br>";
-echo "Sehingga anda hanya membayar: $hargaBayar"
+echo "Sehingga anda hanya membayar: $hargaBayar";
 
+//-----------------------------------------
+
+$skor = 520;
+$hadiahTambahan = false;
+
+echo "<br><br>Total skor pemain adalah: $skor<br>";
+echo "Apakah pemain mendapatkan hadiah tambahan? (YA/TIDAK)";
+if($skor > 500){
+    $hadiahTambahan = true;
+    echo "<br>YA";
+}
 ?>
